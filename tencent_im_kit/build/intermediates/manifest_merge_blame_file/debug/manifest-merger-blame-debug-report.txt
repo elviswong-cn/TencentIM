@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.tencent.qcloud.tim.uikit"
+5    android:versionCode="721"
+6    android:versionName="7.2.1" >
+7
+8    <uses-sdk
+8-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:10:5-110
+9        android:minSdkVersion="17"
+9-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:10:5-110
+10        android:targetSdkVersion="28"
+10-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:10:5-110
+11        tools:overrideLibrary="tv.danmaku.ijk.media.player_arm64, tv.danmaku.ijk.media.player_x86_64" />
+11-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:10:15-108
+12
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:5:5-79
+13-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:6:5-76
+14-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:6:22-73
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:7:5-75
+15-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:7:22-72
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:8:5-81
+16-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:9:5-80
+17-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:9:22-77
+18
+19    <application>
+19-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:11:5-45:19
+20        <activity
+20-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:12:9-14:52
+21            android:name="com.tencent.qcloud.tim.uikit.component.video.CameraActivity"
+21-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:13:13-59
+22            android:screenOrientation="portrait" />
+22-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:14:13-49
+23        <activity
+23-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:15:9-17:77
+24            android:name="com.tencent.qcloud.tim.uikit.component.video.VideoViewActivity"
+24-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:16:13-62
+25            android:configChanges="keyboardHidden|orientation|screenSize" />
+25-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:17:13-74
+26        <activity
+26-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:18:9-20:52
+27            android:name="com.tencent.qcloud.tim.uikit.component.photoview.PhotoViewActivity"
+27-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:19:13-66
+28            android:screenOrientation="portrait" />
+28-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:20:13-49
+29        <activity
+29-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:21:9-23:52
+30            android:name="com.tencent.qcloud.tim.uikit.modules.group.info.GroupInfoActivity"
+30-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:22:13-65
+31            android:screenOrientation="portrait" />
+31-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:23:13-49
+32        <activity
+32-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:24:9-26:52
+33            android:name="com.tencent.qcloud.tim.uikit.component.SelectionActivity"
+33-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:25:13-56
+34            android:screenOrientation="portrait" />
+34-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:26:13-49
+35        <activity
+35-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:27:9-30:73
+36            android:name="com.tencent.qcloud.tim.uikit.modules.group.apply.GroupApplyManagerActivity"
+36-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:28:13-74
+37            android:screenOrientation="portrait"
+37-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:29:13-49
+38            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+38-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:30:13-70
+39        <activity
+39-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:31:9-34:73
+40            android:name="com.tencent.qcloud.tim.uikit.modules.group.apply.GroupApplyMemberActivity"
+40-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:32:13-73
+41            android:screenOrientation="portrait"
+41-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:33:13-49
+42            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+42-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:34:13-70
+43
+44        <provider
+44-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:36:9-44:20
+45            android:name="com.tencent.qcloud.tim.uikit.utils.TUIKitFileProvider"
+45-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:37:13-53
+46            android:authorities="dollar_openBracket_applicationId_closeBracket.uikit.fileprovider"
+46-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:38:13-70
+47            android:exported="false"
+47-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:39:13-37
+48            android:grantUriPermissions="true" >
+48-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:40:13-47
+49            <meta-data
+49-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:41:13-43:60
+50                android:name="android.support.FILE_PROVIDER_PATHS"
+50-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:42:17-67
+51                android:resource="@xml/file_paths_public" />
+51-->D:\workspace_android\utoo\master\haomen\common_sdk_module\tencent_im_kit\src\main\AndroidManifest.xml:43:17-58
+52        </provider>
+53    </application>
+54
+55</manifest>

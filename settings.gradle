@@ -1,0 +1,2 @@
+include ':app','tencent_im_kit'
+rootProject.name='TencentIM'
